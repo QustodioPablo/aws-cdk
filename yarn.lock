@@ -50,6 +50,11 @@
   resolved "https://registry.npmjs.org/@aws-cdk/asset-node-proxy-agent-v5/-/asset-node-proxy-agent-v5-2.0.71.tgz#dd269f8aa160473e006633d2f0f5384f46747693"
   integrity sha512-vB/KF9naAYkELP6Hi5+Oib59B4ZAz6jjtrpsKNzsIZTmcTs0IIBb4nVdAuwMpMkPcwT0mzhMg2tlsiSyjrOFBA==
 
+"@aws-cdk/lambda-layer-kubectl-v24@^2.0.100":
+  version "2.0.115"
+  resolved "https://registry.npmjs.org/@aws-cdk/lambda-layer-kubectl-v24/-/lambda-layer-kubectl-v24-2.0.115.tgz#72c0c92fd513a69f865ac4eb7f8202300b600b02"
+  integrity sha512-959z6oP5rKlnwdwo0Lf+0Uhxv/y/GrUvW5P5ROlX6+8tBkvY/wMCTeeP37JNtIKGGLpJNZTpIjMEMuC7KsLxKQ==
+
 "@aws-cdk/lambda-layer-kubectl-v24@^2.0.113":
   version "2.0.113"
   resolved "https://registry.npmjs.org/@aws-cdk/lambda-layer-kubectl-v24/-/lambda-layer-kubectl-v24-2.0.113.tgz#7b22497eb41bd88cfdea73a34c398721514b72c6"
@@ -2887,6 +2892,22 @@ aws-sdk-mock@5.6.0:
     sinon "^11.1.1"
     traverse "^0.6.6"
 
+aws-sdk@^2.1317.0:
+  version "2.1326.0"
+  resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1326.0.tgz#91da60f08d10e4e1db0640c97bc7d2298fde8f17"
+  integrity sha512-LSGiO4RSooupHnkvYbPOuOYqwAxmcnYinwIxBz4P1YI8ulhZZ/pypOj/HKqC629UyhY1ndSMtlM1l56U74UclA==
+  dependencies:
+    buffer "4.9.2"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.16.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    util "^0.12.4"
+    uuid "8.0.0"
+    xml2js "0.4.19"
+
 aws-sdk@^2.1325.0, aws-sdk@^2.928.0:
   version "2.1325.0"
   resolved "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.1325.0.tgz#4529ede089ee8db79d6eb04ab46a211bfddbbe5b"
@@ -3284,6 +3305,13 @@ cdk-generate-synthetic-examples@^0.1.167:
     jsii-rosetta "^1.76.0"
     yargs "^17.7.1"
 
+cdk8s-plus-24@2.4.23:
+  version "2.4.23"
+  resolved "https://registry.npmjs.org/cdk8s-plus-24/-/cdk8s-plus-24-2.4.23.tgz#dd3f49a6d4c2dac637a820b567b80e17e829799c"
+  integrity sha512-hPNSo6UQUa/wSo44IRqcoMVVzhEgweuRFSvE5TNMaYlDjwsXG+4u8XYV+5qIocZPli+epYqejgev2zleafTh9g==
+  dependencies:
+    minimatch "^3.1.2"
+
 cdk8s-plus-24@2.4.40:
   version "2.4.40"
   resolved "https://registry.npmjs.org/cdk8s-plus-24/-/cdk8s-plus-24-2.4.40.tgz#f27c4c5f0adf20ec58294ac7452fdbe3bcb64a9a"
@@ -3295,6 +3323,15 @@ cdk8s@^2.7.15:
   version "2.7.15"
   resolved "https://registry.npmjs.org/cdk8s/-/cdk8s-2.7.15.tgz#f7d40a17e5ce662208d2713e02a1902593d1caa0"
   integrity sha512-bQIYHUas23SnjSso1ajZdzs0uKY76jisv41KhdL0RMaG+kvHZ5U6WqbKgwMfocPB9DDKxl+k00emn/g5Eh+Nvg==
+  dependencies:
+    fast-json-patch "^3.1.1"
+    follow-redirects "^1.15.2"
+    yaml "2.0.0-7"
+
+cdk8s@^2.7.2:
+  version "2.7.16"
+  resolved "https://registry.npmjs.org/cdk8s/-/cdk8s-2.7.16.tgz#b7cc375e898fe819b0a5e3f0996a673371f51ead"
+  integrity sha512-W1mKU+Q25yJuGmnUQbpr8Bmojl1arFj6B2KuDcdiE2fU2PJb35H+ORVzr+eCh6niES1+O2MzLdsF1KLa4kYI8g==
   dependencies:
     fast-json-patch "^3.1.1"
     follow-redirects "^1.15.2"
@@ -11879,7 +11916,7 @@ yargs@^16.0.0, yargs@^16.2.0:
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
 
-yargs@^17.1.1, yargs@^17.7.1:
+yargs@^17.1.1, yargs@^17.6.2, yargs@^17.7.1:
   version "17.7.1"
   resolved "https://registry.npmjs.org/yargs/-/yargs-17.7.1.tgz#34a77645201d1a8fc5213ace787c220eabbd0967"
   integrity sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==
